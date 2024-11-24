@@ -5,4 +5,4 @@ The objective in this project consists in finding an optimal path, within a map 
 
 For the purpose of optimizing the code, as outlined in the assignment, our team developed two different programs. The first program processes the .csv file containing the map node information, generating a binary file that pre-establishes the connections between nodes, hence enabling faster file access (Astar_binaryfile_write.c). The second program reads the binary file and implements the A* algorithm to efficiently compute the solution to the problem (Astar.c).
 
-This two files can be found in the repository alongside the .csv files with the information of the maps of Andorra, Catalunya and Spain and a Python script to visualize the optimal path in a Map. This .csv fils and Python Script were provided as a part of an assigment.
+This two programs can be found in the repository alongside a.csv file with the information of the Andorra's map and a Python script to visualize the optimal path in a Map. This .csv file and the Python Script were provided as a part of an assigment.
