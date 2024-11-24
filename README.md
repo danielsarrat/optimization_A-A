@@ -1,8 +1,8 @@
 # optimization_A-A
 Repository for the 2nd Optimization delivery
 
-In order to update the repo:
+The objective in this project consists in finding an optimal path, within a map of Spain, between two given locations: from Basílica de Santa Maria del Mar (Plaça de Santa Maria) in Barcelona to the Giralda (Calle Mateos Gago) in Sevilla, according to the distance traveled. And the implementation has to be done via an A* algorithm in the programming language C
 
-git add.                        # add all the new files you have created/edited
-git commit -m 'your message'    # commit the changes and add a message explaning the changes
-git push origin main            # update github repo
+For the purpose of optimizing the code, as outlined in the assignment, our team developed two different programs. The first program processes the .csv file containing the map node information, generating a binary file that pre-establishes the connections between nodes, hence enabling faster file access (Astar_binaryfile_write.c). The second program reads the binary file and implements the A* algorithm to efficiently compute the solution to the problem (Astar.c).
+
+This two files can be found in the repository alongside the .csv files with the information of the maps of Andorra, Catalunya and Spain and a Python script to visualize the optimal path in a Map. This .csv fils and Python Script were provided as a part of an assigment.
